@@ -7,5 +7,6 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',  // Allow external access
     port: 3000,        // Specify the port, change if needed
+    allowedHosts: ['smart-contract-101-frontend.onrender.com'], // Allow this specific host
   },
 })
