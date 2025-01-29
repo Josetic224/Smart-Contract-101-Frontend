@@ -3,6 +3,7 @@ import { ethers } from "ethers";
 import abi from "./abi.json";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "./App.css"
 
 const contractAddress = import.meta.env.VITE_CONTRACT_ADDRESS ;
 //const contractAddress = "0x8802Ab90dF807bC18BBc007B953aC9150E88F51f";
